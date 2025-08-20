@@ -510,20 +510,16 @@
         if(id.length > 1){ e.preventDefault(); document.querySelector(id).scrollIntoView({ behavior:'smooth', block:'start' }); }
       });
     });
-    // Defina os links reais dos seus perfis:
+    // perfis:
 const socialLinks = {
-  tiktok: "https://www.tiktok.com/@SEU_USUARIO",
-  instagram: "https://www.instagram.com/SEU_USUARIO",
-  whatsapp: "https://wa.me/5599999999999", // DDI+DDD+numero
-  x: "https://x.com/SEU_USUARIO"
+  tiktok: "https://www.tiktok.com/@israel.rangel29",
+  instagram: "https://www.instagram/@israe_lrangel0212",
 };
 
 (function applyLinks(){
   const map = [
     ["link-tiktok", socialLinks.tiktok],
     ["link-instagram", socialLinks.instagram],
-    ["link-whatsapp", socialLinks.whatsapp],
-    ["link-x", socialLinks.x]
   ];
 
   map.forEach(([id, url]) => {
@@ -534,3 +530,4 @@ const socialLinks = {
   </script>
 </body>
 </html>
+
